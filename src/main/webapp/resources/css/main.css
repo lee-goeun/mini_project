@@ -1,0 +1,20 @@
+/* body{width:1920px; min-width:1400px;} */
+        
+header{width:100%; height:100px; padding:25px 0;}
+header .img_wrap{display:block;width:250px; float:left;}
+header .img_wrap img{width:100%;}
+header .text_wrap{float:right; height:100%; padding-right:50px; display:flex; align-items: center;}
+header p{float:left; font-size:16px;}
+header ul{float:left; margin-left:15px;}
+header ul li{float:left; width:45px; height:45px; margin-left:15px; cursor:pointer;}
+header ul li img{width:100%;}
+header ul .person_list{position:relative;}
+header ul .person_list ul{display:none; background-color: #fff; position:absolute; width:120px; height:160px; padding:10px 0; margin:0; border:1px solid #ccc;}
+header ul .person_list ul li{width:100%; height:40px; line-height:40px; margin:0; text-indent:10px;}
+header ul .person_list ul li:hover{background-color: #E1E1E1;}
+
+nav{width:240px; height:calc(100vh - 170px); padding-top:20px; float:left; background-color:#eee;}
+nav li{width:100%; height:70px; line-height:70px; text-align: center;}
+nav li:hover{background-color: #fff;}
+nav li a{display:block; width:100%; height:100%; color:#000; display:flex; justify-content: center; align-items: center;}
+nav li a img{margin-right:15px;}

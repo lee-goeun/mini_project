@@ -1,0 +1,20 @@
+#wrap{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:500px; text-align: center;}
+        
+.img_wrapper p:nth-child(1){width:340px; height:150px; margin:0 auto; overflow:hidden;}
+.img_wrapper p img{width:100%;}
+
+fieldset div{text-align: left; position:relative; margin-bottom:20px;}
+form label{color:#5E5E5E; width:40px; font-size:14px;}
+form input{width:100%; height:60px; line-height:60px; text-indent:10px; font-size:16px; border:2px solid #ccc; border-radius: 10px;}
+form div .img{display:none; position:absolute; right:10px; top:40px;}
+form div .img .db_check{float:left; background-color: #FE7E35; color:#fff; font-size:14px; width:80px; height:30px; text-indent:0; border-radius:10px;}
+form div .img img{width:24px; display:block; float:left; margin-left:8px; cursor: pointer; margin-top:3px; }
+
+
+form input.btn{width:50%; height:40px; line-height:40px; margin-top:15px; text-indent:0; border:none; border-radius: 30px; background-color: #FE7E35; color:#fff; font-weight:700;}
+
+.login{margin-top:20px; font-size:12px;}
+.login span{color:#FE7E35; cursor:pointer;}
+
+input:focus{border:2px solid #FE7E35;}
+.warning{color:red; font-size:12px; text-indent:5px;}

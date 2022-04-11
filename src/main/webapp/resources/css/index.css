@@ -1,0 +1,11 @@
+#wrap{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:500px; text-align: center;}
+        
+.img_wrapper p:nth-child(1){width:340px; height:230px; margin:0 auto; overflow:hidden;}
+.img_wrapper p img{width:100%;}
+.img_wrapper .text_wrapper{font-size:28px; margin:30px 0 50px;}
+.img_wrapper .text_wrapper p{font-size:14px; margin-top:10px;}
+
+.btn a{display:block; margin:0 auto; width:50%; height:40px; line-height:40px; border:none; border-radius: 30px; background-color: #FE7E35; color:#fff; font-weight:700;}
+
+.login{margin-top:20px; font-size:12px;}
+.login a{color:#FE7E35;}
